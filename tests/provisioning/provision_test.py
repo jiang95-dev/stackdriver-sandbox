@@ -22,7 +22,6 @@ import json
 import urllib.request
 
 from google.cloud.container_v1.services import cluster_manager
-from google.cloud.trace_v1 import trace_service_client
 from google.cloud import error_reporting
 
 class TestGKECluster(unittest.TestCase):
